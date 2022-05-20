@@ -1,0 +1,14 @@
+{
+  "name": "fullstackprojectapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aamir Nazeer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
