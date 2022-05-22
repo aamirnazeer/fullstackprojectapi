@@ -1,9 +1,15 @@
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 3001
+const cors = require('cors');
+
+app.use(cors({
+  origin: '*'
+}));
+
 
 app.get('/api', (req, res) => {
-  res.send('Hello from server!')
+  res.send('hello')
 })
 
 app.listen(port, () => {
