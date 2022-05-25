@@ -15,8 +15,8 @@ app.use(
   })
 );
 
-app.get("/api", (req, res) => {
-  res.send(`hello kkk`);
+app.get("/", (req, res) => {
+  res.send(`connection successful`);
 });
 
 //project routes
