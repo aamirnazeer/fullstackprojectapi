@@ -1,11 +1,11 @@
 const Sequelize = require("sequelize");
 
 module.exports = new Sequelize(
-  "d4fhm3onp8i1fv",
-  "jfkuvyybjqpgqo",
-  "f1d2c6c971e07d0fdc6eaf76edaeac96d885c1fb6a8b7d76e2ee6596676ce448",
+  "demcpa1nb33ou3",
+  "usyntzzxjgxkhn",
+  "e573754da86e5afb89fc2745551b98615a979a55cfd7d37c46905162f392c7e7",
   {
-    host: "ec2-99-80-170-190.eu-west-1.compute.amazonaws.com",
+    host: "ec2-3-248-121-12.eu-west-1.compute.amazonaws.com",
     dialect: "postgres",
     ssl: true,
     dialectOptions: {
